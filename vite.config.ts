@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   preview: {
-    allowedHosts: ["memory-game-yzggb.ondigitalocean.app"], //Autoriser le domaine
+    allowedHosts: ["memory-game-yzggb.ondigitalocean.app", "memory-game.celian-dev.pro"], //Autoriser le domaine
   },
 });
